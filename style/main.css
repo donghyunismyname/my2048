@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+}
+
+.grid-row {
+
+}
+
+.grid-cell {
+    float: left;
+    background-color: white;
+
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid;
+    margin: 10px;
+    
+    
+}
+

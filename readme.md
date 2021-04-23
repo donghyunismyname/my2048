@@ -1,0 +1,1 @@
+This is my own attempt to make something like the puzzle game 2048. I am a novice in web programming.
