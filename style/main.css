@@ -1,5 +1,7 @@
 .grid-container {
     display: grid;
+    background-color: lightgray;
+    padding: 10px;
 }
 
 .grid-row {
@@ -10,12 +12,15 @@
     float: left;
     background-color: white;
 
+    text-align: center;
+    font-size: 32pt;
+    font-weight: bold;
+    
+
     width: 100px;
     height: 100px;
     padding: 10px;
-    border: 10px solid;
+    border: 0px solid;
     margin: 10px;
-    
-    
 }
 
