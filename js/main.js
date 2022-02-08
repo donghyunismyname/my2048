@@ -93,11 +93,8 @@ function displayGame(game) {
     cells = document.getElementsByClassName('grid-cell');
     for (var i=0; i<4; i++) {
         for (var j=0; j<4; j++) {
-            cells[i*4 + j].textContent = game.board[i][j] ? 
-                game.board[i][j] : '';
-            cells[i*4 + j].style.backgroundColor = game.board[i][j] ? 
-                '#9999FF' : '#FFFFFF';
-                
+            cells[i*4 + j].textContent = game.board[i][j] ? game.board[i][j] : '';
+            cells[i*4 + j].style.backgroundColor = game.board[i][j] ? '#9999FF' : '#FFFFFF';
         }
     }
 
